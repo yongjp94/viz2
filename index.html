@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beatport Data Visualization</title>
+    
+
+    <!-- Includes jQuery and jQuery UI--> 
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    
+    <script src="/bower_components/papaparse/papaparse.min.js"></script>
+    <script src="/js/StackedGraph.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class='jumbotron'>
+        <h1>EDM Genre Trends Over Time</h1>
+        <p id="genre">This is: </p>
+    </div>
+    <div class='genres control'>
+        <ul id='genres' class='breadcrumb'></ul>
+    </div>
+    <div class='button-control'>
+        <button class='btn btn-primary'>View All</button>
+    </div>
+    
+    <div id="viz"></div>
+</body>
+</html>
