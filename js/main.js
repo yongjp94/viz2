@@ -1,5 +1,5 @@
 $(function() {
-    var dataDirectory = 'info474/a2/viz2/data/test.csv'
+    var dataDirectory = '/yongjp94/info474/a2/viz2/data/test.csv'
     var orgData;
     
     var orgLayers;
