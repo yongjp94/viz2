@@ -13,3 +13,5 @@ The breadcrumb layout of the menu allows the users to view all of the genres at 
 Overall, the graph uses multiple cues (position, color, opacity, and area) to allow the users to compare data. This is excellent because the users have a choice of different visual encodings to interpret the data and is given more freedom.
 When singular area graphs are shown through filtering, the users can accurately determine the impact, growth, and diminishing of each genre comparing position against a scale.
 The slopes allow the users to use direction to help encode the rise and fall of popularity of each genre. The area gives the users an extra cue to compare vertical length of the genre's impact in each time point.
+
+Live Graph: http://students.washington.edu/yongjp94/info474/a2/viz2/
